@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #11998e, #38ef7d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.converter-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    /* Box shadow for depth */
+}
+
+h1 {
+    color: #333;
+}
+
+input,
+select {
+    padding: 10px;
+    margin: 10px;
+    width: calc(100% - 22px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    /* Transition for border color */
+    font-size: 16px;
+}
+
+input:focus,
+select:focus {
+    border-color: #008CBA;
+    /* Border color on focus */
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    /* Box shadow for depth */
+}
+
+button:hover {
+    background-color: #005F6B;
+    transform: translateY(-2px);
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    /* Box shadow for depth */
+}
